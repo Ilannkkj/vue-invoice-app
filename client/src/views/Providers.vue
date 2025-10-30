@@ -75,8 +75,6 @@ import documentUtilityMixin from '../mixins/documentUtilityMixin';
 
 const entityName = 'provider';
 
-import uuidv1 from 'uuid/v1';
-
 import { createNamespacedHelpers, mapMutations } from 'vuex';
 import * as common from '@/store/modules/common';
 const { mapActions, mapGetters } = createNamespacedHelpers(entityName)
