@@ -155,7 +155,7 @@ export default {
             this.$store.dispatch('dashboard/fetchMainOverview', 'history', { root: true });
         },
 
-        // TODO: add to common
+        
         async onInsertCreatedItems () {
             const response = await this.insertCreatedItems();
             this.openModalBox(capitalize(response.message));
