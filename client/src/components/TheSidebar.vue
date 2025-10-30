@@ -64,7 +64,6 @@ export default {
     flex-direction: column;
 
     position: fixed;
-    width: 16.5rem;
 
     &__avatar {
         border: none;
